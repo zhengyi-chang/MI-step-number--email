@@ -2,13 +2,9 @@ name: 刷步数
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [ mian ]
   schedule:
     - cron: 25 0 * * *
-  watch:
-    types: started
 
 
 jobs:
