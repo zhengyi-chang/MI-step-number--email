@@ -4,7 +4,7 @@ on:
   push:
     branches: [ mian ]
   schedule:
-    - cron: 05 2 * * *
+    - cron: 25 0 * * *
 
 
 jobs:
